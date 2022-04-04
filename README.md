@@ -19,15 +19,6 @@
 ## Part 1: Back-end
 - Project Setup: truffle init, truffle.js (project configuration--how it'll connect to the local blockchain)
 - Test setup
-	- Contract
-
-	![](images/1-bkend/tokencontract-test.png)
-	- Console
-
-	![](images/1-bkend/truffleconsole-test.png)
-	- Test
-	
-	![](images/1-bkend/test-test.png)
 - Create Token Contract
 	- 3: Edit totalSupply, implement balanceOf, allocate initialSupply to admin, assign token name, symbol and standard
 	- 4: Add transfer function
@@ -43,7 +34,6 @@
 - 12: Layout for website (index.html), app.js (init, initWeb3, initContracts, load account data in render function)
 - 13: Render function, buyTokens, transfer some tokens from the token contract to the token sale contract from the console, add listenForEvents function
 
-![](images/2-frontend/layout.png)
 
 ## Part 3: Deployment
 - 14: Deploy to the Rinkeby test network
